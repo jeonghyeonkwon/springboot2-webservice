@@ -5,8 +5,9 @@ jdk:
 branches:
   only:
     - master
+    - main
 
-# Travis CI 서버의 Home
+# Travs CI 서버의 Home
 cache:
   directories:
     - '$HOME/.m2/repository'
