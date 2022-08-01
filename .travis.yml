@@ -34,8 +34,7 @@ deploy:
       all_branches: true
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
-    secret_access_key:
-      secure: $AWS_SECRET_KEY
+    secret_access_key: $AWS_SECRET_KEY
     bucket: jeonghyeon-springboot-build
     key: springboot2-webservice.zip
 
@@ -53,3 +52,4 @@ notifications:
     recipients:
       - 'givejeong2468@gmail.com'
 
+# 배포 테스트 1(특수문자 키 X)
