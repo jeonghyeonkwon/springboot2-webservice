@@ -41,7 +41,7 @@ deploy:
     bundle_type: zip
     application: springboot2-webservice
     deployment_group: springboot2-webservice-group
-    region: ap-northeast-2
+    region: us-west-1a
     wait-until-deployed: true
     on:
       all_branches: true
@@ -52,4 +52,4 @@ notifications:
     recipients:
       - 'givejeong2468@gmail.com'
 
-# 배포 테스트 1(특수문자 키 X)
+# 배포 테스트 1(특수문자 키 X, 지역 변경)
